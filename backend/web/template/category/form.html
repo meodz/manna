@@ -1,0 +1,42 @@
+<form id="category-form" role="form" class="popup-form" style="width: 500px;">
+    <input type="hidden" class="form-control" name="CategoryForm[id]" value="<%= data?data.id:'' %>">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Category form
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input class="form-control" name="CategoryForm[name]" value="<%= data?data.name:'' %>">
+                        </div>
+                        <div class="form-group">
+                            <label>Addition price</label>
+                            <input class="form-control" name="CategoryForm[priceAddition]" value="<%= data?data.priceAddition:'' %>">
+                        </div>
+                        <div class="form-group">
+                            <label>Multiple price</label>
+                            <input class="form-control" name="CategoryForm[priceMultiple]" value="<%= data?data.priceMultiple:'' %>">
+                        </div>
+                        <div class="form-group">
+                            <label>US ship fee</label>
+                            <input class="form-control" name="CategoryForm[shipFee]" value="<%= data?data.shipFee:'' %>">
+                        </div>
+                        <div class="form-group">
+                            <label>Order</label>
+                            <input class="form-control" name="CategoryForm[order]" value="<%= data?data.order:'' %>">
+                        </div>
+                        <div class="form-group">
+                            <input value="1" name="CategoryForm[childApply]" type="checkbox" /> Apply recursively&nbsp;
+                        </div>
+                        <div class="form-group">
+                            <input value="1" <%= data?(data.published==1?'checked="checked"':''):'' %> name="CategoryForm[published]" type="checkbox" /> Published&nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

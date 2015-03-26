@@ -1,0 +1,133 @@
+/*--------------------------------------------------------------------------------------------
+# Author: Le Duc Anh <anhld@peacesoft.net> - Mobile: 0987 353 726
+# @license - Copyrighted Commercial Software
+# Websites:  http://www.chodientu.vn - http://www.nganluong.vn - http://www.ebay.vn
+# Copyright (C) 2000-2013 PeaceSoft Solutions Corporation. All Rights Reserved.
+--------------------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+
+img{
+	max-width:100%;
+}
+.logo-footer.pull-left{
+	width:100%;
+	text-align:center;
+}
+.logo-footer{
+	margin-bottom:5px;
+}
+.nav-tabs>li{
+	float:none;
+}
+.box-search,.box-search .input-group-btn .btn{
+	width:100%;
+}
+.box-search .input-group{
+	display:block;
+}
+.box-search .form-control{
+	border-right:1px solid #D9D9D9;
+	margin-bottom:10px;
+}
+.tab-product-index, .box-search .hidden-md{
+	display:none;
+}
+/**footer**/	
+.block-list-key{
+	margin-left:0
+}
+.list-brand-logo li{
+	width:50%;
+}
+.footer-copy-right .col-lg-5.col-md-5.col-xs-12{
+	border:none;
+}
+.col-lg-7.col-md-7.col-xs-12 .footer-info {
+	display:none;
+}	
+.footer-payment .title-support-payment{
+	float: none !important;
+	display: block;
+	margin-bottom: 10px;	
+}	
+.thumb-product-detail{
+	height:50px;
+	float:none;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.list-thumb-detail li{
+	border:1px solid #DDD;
+	margin-right:5px;
+	float:left;
+}
+.logo-pages{
+	text-align:center;
+	margin-bottom:15px;
+}
+	
+.header-pages .box-search,.box-search .input-group-btn .btn{
+	width:100%;
+}
+.header-pages .box-search .input-group{
+	display:table;
+}
+.header-pages .box-search .form-control{
+	border-right:1px solid #D9D9D9;
+	margin-bottom:10px;
+}
+.header-pages .box-search .btn.btn-danger{
+	margin-top:-9px;	
+	margin-left:-1px;
+}
+	
+}
+@media (min-width: 767px) {
+.product-info-detail{
+	margin-top:25px;
+}		
+.thumb-product-detail{
+	height:50px;
+	float:none;
+	margin-bottom:10px;
+	overflow:hidden;
+}	
+.list-thumb-detail li{
+	border:1px solid #DDD;
+	margin-right:5px;
+	float:left;
+}	
+	
+}
+@media (min-width: 1024px) {
+.thumb-product-detail{
+	width:50px;
+	float:left;
+	margin-right:10px;
+	overflow:hidden;
+	height:auto;
+}	
+.big-image-product-detail{
+	float:left;
+}
+
+	
+}
+@media (min-width: 1200px) {
+.product-info-detail{
+	float:left;
+	width:47%;
+}		
+
+.right-block-product-detail{
+	width:23%;
+	padding-left:0;
+}
+.left-block-product-detail{
+	padding-left:0;
+	width:77%;
+}
+.col-lg-7.col-xs-12.zoom-section{
+	width:53%;
+}	
+}
